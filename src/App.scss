@@ -1,0 +1,13 @@
+$primary-color: #4a90e2;
+$secondary-color: #ffffff;
+
+.App {
+  .custom-button {
+    @apply bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors;
+  }
+
+  .custom-card {
+    @apply bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow;
+    border: 1px solid $primary-color;
+  }
+}
